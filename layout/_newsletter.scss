@@ -1,0 +1,17 @@
+.section_newsletter {
+  padding-top: 140px;
+}
+.newsletter_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.newsletter_text {
+  width: 462px;
+  text-align: center;
+  @media (max-width: 500px) {
+    font-size: 22px;
+    width: 600px;
+  }
+}

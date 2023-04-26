@@ -1,0 +1,56 @@
+.section_story {
+  position: relative;
+}
+.story_heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 76px;
+  color: #fafafa;
+}
+.story_text {
+  width: 857px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #fafafa;
+  @media (max-width: 500px) {
+    font-size: 24px;
+  }
+}
+.story_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  position: absolute;
+  top: 300px;
+  right: 290px;
+  @media (max-width: 500px) {
+    top: 200px;
+  }
+}
+.story_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.story1::before {
+  content: "\201C";
+  font-size: 124px;
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -40px;
+}
+
+.story2::after {
+  content: "\201E";
+  font-size: 124px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

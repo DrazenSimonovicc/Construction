@@ -1,0 +1,18 @@
+.section_features {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 14px;
+  @media (max-width: 500px) {
+    padding-top: 32px;
+  }
+}
+.features_box {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fafafa;
+  border-radius: 150px;
+  padding: 74px 82px;
+}
+.features_img {
+  width: 100px;
+}

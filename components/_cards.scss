@@ -1,0 +1,83 @@
+.engineers {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  gap: 42px;
+  justify-content: center;
+  margin-bottom: 80px;
+  overflow: hidden;
+}
+.engineers_box {
+  position: relative;
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px;
+}
+.engineer_img {
+  width: 120px;
+}
+.cards_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 22px;
+}
+.engineer_name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #313131;
+  @media (max-width: 500px) {
+    font-size: 26px;
+  }
+}
+.engineer_span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  justify-content: center;
+  letter-spacing: 1px;
+  color: #6b6b6b;
+  margin-top: 7px;
+  margin-bottom: 48px;
+  @media (max-width: 500px) {
+    font-size: 16px;
+  }
+}
+.engineer_number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #6b6b6b;
+  opacity: 0.9;
+  @media (max-width: 500px) {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+}
+.engineer_mail {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 26px;
+  color: #18a7b9;
+  @media (max-width: 500px) {
+    font-size: 21px;
+  }
+}
+.card_icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  fill: #f0bb00;
+  font-size: 24px;
+}
